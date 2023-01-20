@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link,NavLink } from "react-router-dom";
 
-const Header = ({addEmployeClick,cancelEmployeClick}) => {
+const header = ({addEmployeClick,cancelEmployeClick}) => {
   const addEmployeClick1 = () =>{
     addEmployeClick();
   }
@@ -32,4 +32,4 @@ const Header = ({addEmployeClick,cancelEmployeClick}) => {
   )
 }
 
-export default Header;
+export default header;

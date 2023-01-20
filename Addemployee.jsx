@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { addData,updatedata } from '../../data/dataemployee';
+import { addData,updatedata } from './Dataemployee';
 import './Addemployee.css';
 import { useNavigation } from "react-router-dom";
 

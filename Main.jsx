@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './main.css';
 
-import Empdata, { paiginationFunction,sizeOfData } from '/dataemployee.js';
+import Empdata, { paiginationFunction,sizeOfData } from '/Dataemployee';
 
 const Main = ({editItemClick}) => {
   const [deletePress, setdeletePress] = useState(false);
